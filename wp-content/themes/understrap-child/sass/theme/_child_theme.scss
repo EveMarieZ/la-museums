@@ -1,3 +1,18 @@
+/* Typography */
+
 h1, h2, h3, h4 {
     text-transform: uppercase;
+}
+
+.footer-sitemap-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-sitemap-list a:hover {
+    text-decoration: underline;
+}
+
+.color-links {
+    color: #0033A0;
 }
