@@ -11353,19 +11353,16 @@ a.skip-link {
 .gallery-caption {
   display: block; }
 
+/* Layout */
+.site-main {
+  margin-left: 50px; }
+
 /* Typography */
 body {
   letter-spacing: 1px; }
 
 h1, h2, h3, h4 {
   text-transform: uppercase; }
-
-.footer-sitemap-list {
-  list-style: none;
-  text-decoration: none; }
-
-.footer-sitemap-list a:hover {
-  text-decoration: underline; }
 
 .color-links {
   color: #0033A0; }
@@ -11377,20 +11374,13 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   font-size: 1.5rem; }
 
-/* Bootstrap Components */
-.jumbotron {
-  max-height: 520px; }
-
-.footer {
-  background-color: #fff; }
+/* Footer */
+#wrapper-footer-full {
+  background-color: #fff;
+  border-top: 1px solid #000; }
 
 /* Widgets*/
 .widget {
   padding-bottom: 30px; }
-
-/* Lists */
-footer ul {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0; }
 
 /*# sourceMappingURL=child-theme.css.map */

@@ -1,3 +1,9 @@
+/* Layout */
+
+.site-main {
+    margin-left: 50px;
+}
+
 /* Typography */
 
 body {
@@ -6,15 +12,6 @@ body {
 
 h1, h2, h3, h4 {
     text-transform: uppercase;
-}
-
-.footer-sitemap-list {
-    list-style: none;
-    text-decoration: none;
-}
-
-.footer-sitemap-list a:hover {
-    text-decoration: underline;
 }
 
 .color-links {
@@ -30,14 +27,11 @@ h1, h2, h3, h4 {
     font-size: 1.5rem;
 }
 
-/* Bootstrap Components */
+/* Footer */
 
-.jumbotron {
-    max-height: 520px;
-}
-
-.footer {
+#wrapper-footer-full {
     background-color: #fff;
+    border-top: 1px solid #000;
 }
 
 /* Widgets*/ 
@@ -46,8 +40,3 @@ h1, h2, h3, h4 {
     padding-bottom: 30px;
 }
 
-/* Lists */
-
-footer ul {
-    padding-inline-start: 0;
-}
