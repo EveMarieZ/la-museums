@@ -11381,8 +11381,16 @@ h1, h2, h3, h4 {
 .jumbotron {
   max-height: 520px; }
 
+.footer {
+  background-color: #fff; }
+
 /* Widgets*/
 .widget {
   padding-bottom: 30px; }
+
+/* Lists */
+footer ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0; }
 
 /*# sourceMappingURL=child-theme.css.map */

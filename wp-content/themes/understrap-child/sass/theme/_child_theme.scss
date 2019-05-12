@@ -36,8 +36,18 @@ h1, h2, h3, h4 {
     max-height: 520px;
 }
 
+.footer {
+    background-color: #fff;
+}
+
 /* Widgets*/ 
 
 .widget {
     padding-bottom: 30px;
+}
+
+/* Lists */
+
+footer ul {
+    padding-inline-start: 0;
 }
