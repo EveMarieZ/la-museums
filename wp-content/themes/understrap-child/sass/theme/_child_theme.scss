@@ -1,42 +1,54 @@
 /* Layout */
 
 .site-main {
-    margin-left: 50px;
+  margin-left: 50px;
+}
+
+#wrapper-footer-full {
+  background-color: #fff;
+  border-top: 1px solid #000;
 }
 
 /* Typography */
 
 body {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
-h1, h2, h3, h4 {
-    text-transform: uppercase;
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
 }
 
 .color-links {
-    color: #0033A0;
+  color: #0033a0;
 }
 
 .nav-link {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .navbar-brand {
-    text-transform: uppercase;
-    font-size: 1.5rem;
+  max-width: 350px;
+  height: auto;
 }
 
-/* Footer */
-
-#wrapper-footer-full {
-    background-color: #fff;
-    border-top: 1px solid #000;
+.navbar-toggler {
+    display: flex;
+    justify-content: center;
 }
 
-/* Widgets*/ 
+/* Widgets*/
 
 .widget {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
+.footer-sitemap-list {
+    padding-left: 0;
+    text-decoration: none;
+    list-style: none;
+}

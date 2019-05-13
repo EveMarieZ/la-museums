@@ -11357,30 +11357,46 @@ a.skip-link {
 .site-main {
   margin-left: 50px; }
 
-/* Typography */
-body {
-  letter-spacing: 1px; }
-
-h1, h2, h3, h4 {
-  text-transform: uppercase; }
-
-.color-links {
-  color: #0033A0; }
-
-.nav-link {
-  text-transform: uppercase; }
-
-.navbar-brand {
-  text-transform: uppercase;
-  font-size: 1.5rem; }
-
-/* Footer */
 #wrapper-footer-full {
   background-color: #fff;
   border-top: 1px solid #000; }
 
+/* Typography */
+body {
+  letter-spacing: 1px; }
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+.color-links {
+  color: #0033a0; }
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 1rem; }
+
+.navbar-brand {
+  max-width: 350px;
+  height: auto; }
+
+.navbar-toggler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 /* Widgets*/
 .widget {
   padding-bottom: 30px; }
+
+.footer-sitemap-list {
+  padding-left: 0;
+  text-decoration: none;
+  list-style: none; }
 
 /*# sourceMappingURL=child-theme.css.map */
