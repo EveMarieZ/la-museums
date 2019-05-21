@@ -26,13 +26,13 @@ define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settin
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'lamuseums' );
+define( 'DB_NAME', 'lamuseum_wordpress1' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'lamuseum_emzaun' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'BB8R2D2yall!' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

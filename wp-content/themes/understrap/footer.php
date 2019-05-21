@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="footer-sitemap d-flex justify-content-center">
 
 						<!-- <?php understrap_site_info(); ?> -->
-						<p>Designed & Developed by <span class="color-links"><a href="http://evewebdesign.com">Eve Web Design</a></span><p>
+						<p>Designed & Developed by <span class="color-links"><a href="http://evewebdesign.com" target="_blank">Eve Web Design</a></span><p>
 					</div>
 
 					</div><!-- .site-info -->
