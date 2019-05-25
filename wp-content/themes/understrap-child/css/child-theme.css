@@ -11369,7 +11369,8 @@ h1,
 h2,
 h3,
 h4 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-bottom: 10px; }
 
 .color-links {
   color: #0033a0; }
