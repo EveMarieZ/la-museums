@@ -11361,6 +11361,12 @@ a.skip-link {
   background-color: #fff;
   border-top: 1px solid #000; }
 
+.bg-primary {
+  background-color: #fff !important; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000; }
+
 /* Typography */
 body {
   letter-spacing: 1px; }
